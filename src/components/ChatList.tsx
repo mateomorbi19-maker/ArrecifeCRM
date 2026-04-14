@@ -23,7 +23,7 @@ export function ChatList({ conversations }: { conversations: Conversation[] }) {
   }, [conversations, q]);
 
   return (
-    <aside className="w-full h-full border-r border-arborder bg-arpanel flex flex-col">
+    <aside className="w-full h-full border-r border-arborder bg-arpanel flex flex-col md:rounded-l-2xl overflow-hidden">
       <div className="p-4 border-b border-arborder shrink-0">
         <div className="flex items-center justify-between mb-3">
           <div>

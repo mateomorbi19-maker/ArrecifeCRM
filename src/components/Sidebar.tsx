@@ -77,7 +77,7 @@ export function Sidebar() {
 
   return (
     <>
-      <aside className="hidden md:flex w-64 bg-arpanel border-r border-arborder flex-col shrink-0">
+      <aside className="hidden md:flex w-60 bg-arpanel border border-arborder rounded-2xl shadow-xl shadow-black/10 flex-col shrink-0 overflow-hidden">
         <div className="p-5 border-b border-arborder">
           <div className="flex items-center gap-3">
             <BrandLogo size={44} />
